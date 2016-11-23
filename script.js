@@ -1,6 +1,5 @@
 var commentInput = $("#comment-input")
 var commentDisplay = $(".commment-display")
-var newComment = commentInput.val()
 
 commentInput.keydown(function(e) {
   if (e.which == 13) {
@@ -10,8 +9,8 @@ commentInput.keydown(function(e) {
 
 
 
-onNewListItem("commentInput", function(newComment) {
+onNewListItem("comments", function(newComment) {
   commentDisplay.append("<span>" + newComment + "</span>")
-  console.log("hello")
+  console.log(newComment)
 
 })
