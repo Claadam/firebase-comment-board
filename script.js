@@ -1,4 +1,3 @@
-console.log("hi")
 var commentInput = $("#comment-input")
 var commentDisplay = $(".commment-display")
 var newComment = commentInput.val()
@@ -13,4 +12,6 @@ commentInput.keydown(function(e) {
 
 onNewListItem("commentInput", function(newComment) {
   commentDisplay.append("<span>" + newComment + "</span>")
+  console.log("hello")
+
 })
