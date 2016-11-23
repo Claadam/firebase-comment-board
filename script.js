@@ -1,9 +1,10 @@
 console.log("hi")
-var commentInput = $("#form-control")
+var commentInput = $("#comment-input")
 var commentDisplay = $(".commment-display")
 
 commentInput.keydown(function(e) {
   if (e.which == 13) {
+    console.log("hi also");
     addListItem("comments", commentInput.val());
   }
 })
