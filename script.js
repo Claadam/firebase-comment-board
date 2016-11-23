@@ -11,6 +11,6 @@ commentInput.keydown(function(e) {
 
 onNewListItem("comments", function(newComment) {
   commentDisplay.append("<span>" + newComment + "</span>")
-  console.log(newComment)
+  console.log(commentDisplay)
 
 })
