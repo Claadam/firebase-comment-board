@@ -1,3 +1,4 @@
+console.log("hi")
 var commentInput = $("#form-control")
 var commentDisplay = $(".commment-display")
 
