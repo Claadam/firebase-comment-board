@@ -1,13 +1,11 @@
 console.log("hi")
 var commentInput = $("#comment-input")
 var commentDisplay = $(".commment-display")
-var newComm
+var newComment = commentInput.val()
 
 commentInput.keydown(function(e) {
   if (e.which == 13) {
-    console.log("hi also");
-    addListItem("comments", commentInput.val());
-
+    addListItem("comments", commentInput.val())
   }
 })
 
