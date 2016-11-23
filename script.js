@@ -1,5 +1,5 @@
-var commentInput = $("#comment-input")
-var commentDisplay = $(".not-actually-the-right-class")
+var commentInput = $("#form-control")
+var commentDisplay = $(".comment ")
 
 commentInput.keydown(function(e) {
   if (e.which == 13) {
